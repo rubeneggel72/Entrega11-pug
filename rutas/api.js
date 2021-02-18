@@ -1,9 +1,9 @@
 const express = require('express')
 const router = express.Router();
-let matrizProductos = [{"id":1,"title":"iPhone 11 64 GB (Product)Red","price":159000,"thumbnail":"https://raw.githubusercontent.com/rubeneggel72/Entrega10/main/img/img-001.jpg"},
-{"id":3,"title":"iPhone 12 64 GB azul","price":200000,"thumbnail":"https://raw.githubusercontent.com/rubeneggel72/Entrega10/main/img/img-002.jpg"},
-{"id":4,"title":"iPhone XR 64 GB negro","price":139000,"thumbnail":"https://raw.githubusercontent.com/rubeneggel72/Entrega10/main/img/img-003.jpg"},
-{"id":5,"title":"iPhone XR 64 GB negro","price":139000,"thumbnail":"https://raw.githubusercontent.com/rubeneggel72/Entrega10/main/img/img-004.jpg"},
+let matrizProductos = [{"id":1,"title":"iPhone 11 64 GB (Product)Red","price":159000,"thumbnail":"https://raw.githubusercontent.com/rubeneggel72/Entrega11-pug/main/img/img-001.jpg"},
+{"id":3,"title":"iPhone 12 64 GB azul","price":200000,"thumbnail":"https://raw.githubusercontent.com/rubeneggel72/Entrega11-pug/main/img/img-002.jpg"},
+{"id":4,"title":"iPhone XR 64 GB negro","price":139000,"thumbnail":"https://raw.githubusercontent.com/rubeneggel72/Entrega11-pug/main/img/img-003.jpg"},
+{"id":5,"title":"iPhone XR 64 GB negro","price":139000,"thumbnail":"https://raw.githubusercontent.com/rubeneggel72/Entrega11-pug/main/img/img-004.jpg"},
 ]
 
 router.get('/productos/vista', (req, res) => {

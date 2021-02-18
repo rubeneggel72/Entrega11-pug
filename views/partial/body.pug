@@ -1,0 +1,27 @@
+if productos.length>0 
+    each producto in productos
+        .container
+            .row.border-bottom.border-dark
+                .col-1.my-auto
+                    h6=producto.id
+                .col-3.my-4
+                        img(class="img-productos",src=producto.thumbnail,alt=producto.title,width="30%") 
+                .col-5.my-auto
+                        h6=producto.title
+                .col-2.my-auto
+                        h6=producto.price
+else
+    .container
+        .row.border-bottom.border-dark
+            .col-12.my-auto
+                <br/>
+                <br/>
+                <br/>
+                h4  No hay Productos
+                <br/>
+                <br/>
+                <br/>
+
+
+            
+             

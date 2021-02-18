@@ -1,15 +1,15 @@
-if productos.length>0 
-    each producto in productos
+if products.length>0 
+    each product in products
         .container
             .row.border-bottom.border-dark
                 .col-1.my-auto
-                    h6=producto.id
+                    h6=product.id
                 .col-3.my-4
-                        img(class="img-productos",src=producto.thumbnail,alt=producto.title,width="30%") 
+                        img(class="img-products",src=product.thumbnail,alt=product.title,width="30%") 
                 .col-5.my-auto
-                        h6=producto.title
+                        h6=product.title
                 .col-2.my-auto
-                        h6=producto.price
+                        h6=product.price
 else
     .container
         .row.border-bottom.border-dark
@@ -17,7 +17,7 @@ else
                 <br/>
                 <br/>
                 <br/>
-                h4  No hay Productos
+                h4  No hay productos
                 <br/>
                 <br/>
                 <br/>
